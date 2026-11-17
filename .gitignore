@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/*.csv
+data/*.xls
+data/*.xlsx
+outputs/
+.ipynb_checkpoints/
