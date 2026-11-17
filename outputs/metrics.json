@@ -1,0 +1,41 @@
+{
+  "n_train": 105000,
+  "n_test": 45000,
+  "default_rate_train": 0.06683809523809524,
+  "default_rate_test": 0.06684444444444444,
+  "split": "aléatoire stratifié",
+  "variables": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "NumberOfTimes90DaysLate",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTime60-89DaysPastDueNotWorse",
+    "age",
+    "MonthlyIncome",
+    "NumberOfDependents"
+  ],
+  "train": {
+    "auc": 0.8522233916979267,
+    "gini": 0.7044467833958534,
+    "ks": 0.5461122697413107
+  },
+  "test": {
+    "auc": 0.8534786451218671,
+    "gini": 0.7069572902437342,
+    "ks": 0.5484036599676534
+  },
+  "mean_pd_test": 0.0660566212678175,
+  "psi_score_train_vs_test": 0.0003906778226607704,
+  "score_range_test": [
+    435.81420238327985,
+    624.073360017728
+  ],
+  "psi_variables": {
+    "RevolvingUtilizationOfUnsecuredLines": 0.0001939655219752235,
+    "NumberOfTimes90DaysLate": 7.050039631703687e-05,
+    "NumberOfTime30-59DaysPastDueNotWorse": 9.942648631262227e-06,
+    "NumberOfTime60-89DaysPastDueNotWorse": 4.847248062354096e-06,
+    "age": 0.00017222950656229665,
+    "MonthlyIncome": 0.0004468460307121022,
+    "NumberOfDependents": 7.169922420641631e-05
+  }
+}

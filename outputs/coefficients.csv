@@ -1,0 +1,8 @@
+,coef
+RevolvingUtilizationOfUnsecuredLines,0.6360347547708379
+NumberOfTimes90DaysLate,0.5218847303331657
+NumberOfTime30-59DaysPastDueNotWorse,0.5237922758597305
+NumberOfTime60-89DaysPastDueNotWorse,0.4050716583939378
+age,0.39032022019298757
+MonthlyIncome,0.3432760257947423
+NumberOfDependents,0.2836557363809771

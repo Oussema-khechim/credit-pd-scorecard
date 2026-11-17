@@ -3,5 +3,5 @@ __pycache__/
 data/*.csv
 data/*.xls
 data/*.xlsx
-outputs/
+
 .ipynb_checkpoints/
